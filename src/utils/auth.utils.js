@@ -2,7 +2,7 @@ function CheckEmailDomainIsPersonalOrNotUtil(emailDomain){
     try{
 
         const PersonalEmailDomainsMap = new Map([
-           // ['gmail.com', 'Gmail'],
+            ['gmail.com', 'Gmail'],
             ['outlook.com', 'Outlook'],
             ['yahoo.com', 'Yahoo'],
             ['protonmail.com', 'ProtonMail'],
