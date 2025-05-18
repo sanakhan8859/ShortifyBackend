@@ -54,6 +54,43 @@ const SignupController = async (req, res)=>{
                 success : true,
                 message : "Email is Personal"
             })
+
+
+           //Change code
+               
+           //const salt = await bcrypt.genSalt();
+           //const encryptedPassword = await bcrypt.hash(password, salt);
+
+           //const CreateNewUserServiceResult = await CreateNewUserService(fullName, email, encryptedPassword, null, "INDIVIDUAL");
+      
+           //if(!CreateNewUserServiceResult.success){
+            //const err = new Error(`Unable to create user with email : ${email}`);
+            //err.statusCode = 400;
+            //throw err;
+   // }
+
+    //const { fullName: fullNameDB, email: emailDB, _id: userId } = CreateNewUserServiceResult.data;
+
+    //res.status(201).json({
+      //  success: true,
+       // message: "User is created with personal email",
+       // data: {
+           // fullname: fullNameDB,
+           // email: emailDB,
+            //userId
+       // }
+    //});
+
+
+
+
+
+
+
+
+
+
+           //till here
         }else{
             // if email is business/professional email
 
